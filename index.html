@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional - LEONARDO NUNES</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#main-navbar" data-offset="56">
+
+    <header>
+        <nav class="navbar fixed-nav shadow-effect" id="main-navbar" aria-label="Navegação Principal">
+            <div class="container nav-content">
+                <a class="logo" href="#">LEONARDO NUNES</a>
+                
+                <button class="nav-toggler" type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarNav" 
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Abrir Navegação">
+                    <span class="toggler-icon"></span>
+                </button>
+                
+                <div class="nav-menu" id="navbarNav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        
+        <section id="sobre" class="section-padding section-light">
+            <div class="container main-content">
+                <h2 class="section-title text-center">Sobre Mim</h2>
+                
+                <div class="row profile-layout">
+                    <div class="profile-column-image text-center">
+                        <img src="img/WhatsApp Image 2025-10-22 at 08.16.23.jpeg" 
+                             alt="Foto Profissional de Leonardo Nunes" 
+                             class="profile-photo rounded-circle shadow-effect">
+                    </div>
+                    
+                    <div class="profile-column-text">
+                        <p class="lead-text">
+                            Olá! Meu nome é LEONARDO NUNES e sou um desenvolvedor focado em FROND-END. 
+                            Buscando oferecer a melhor experiencia de desenvolvimento web para o publico, gerando codigo limpos e claros.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section id="projetos" class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Meus Projetos</h2>
+
+                <div class="row project-grid"> 
+                    
+                    <div class="project-column">
+                        <div class="project-card shadow-sm card-hover-effect">
+                            <img src="img/NAVAL.png" class="card-image" alt="Imagem do Projeto 1">
+                            <div class="card-content">
+                                <h5 class="card-title">Projeto 1: JOGO "BATALHA NAVA"</h5>
+                                <p class="card-text">Desenvolvimento com objetivos de praticar as principais tecnicas de javascript.</p>
+                                <a href="#" class="btn btn-primary card-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-column">
+                        <div class="project-card shadow-sm card-hover-effect">
+                            <img src="img/BLOG.png" class="card-image" alt="Imagem do Projeto 2">
+                            <div class="card-content">
+                                <h5 class="card-title">Projeto 2: Blog VIVA O XADREZ</h5>
+                                <p class="card-text">Plataforma de blog com formato organizado e apresentado ao leitor, e como o leitor interage com ele. O objetivo principal é a legibilidade e a navegação intuitiva.</p>
+                                <a href="#" class="btn btn-primary card-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-column">
+                        <div class="project-card shadow-sm card-hover-effect">
+                            <img src="img/FLEXBOX.png" class="card-image" alt="Imagem do Projeto 3">
+                            <div class="card-content">
+                                <h5 class="card-title">Projeto 3: FLEX BOX</h5>
+                                <p class="card-text">Painel interativo para visualização de imagens.</p>
+                                <a href="#" class="btn btn-primary card-link">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section-padding section-dark text-light">
+            <div class="container">
+                <h2 class="section-title text-center">Entre em Contato</h2>
+
+                <div class="row form-layout-center">
+                    <div class="form-column">
+                        <form aria-label="Formulário de Contato">
+                            
+                            <div class="form-group">
+                                <label for="inputNome" class="form-label">Nome:</label>
+                                <input type="text" class="form-input" id="inputNome" placeholder="Seu Nome Completo" required aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inputEmail" class="form-label">E-mail:</label>
+                                <input type="email" class="form-input" id="inputEmail" placeholder="seu.email@exemplo.com" required aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inputMensagem" class="form-label">Mensagem:</label>
+                                <textarea class="form-input" id="inputMensagem" rows="4" placeholder="Sua mensagem, por favor..." required aria-required="true"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large btn-full-width">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer section-dark text-muted">
+        <div class="container text-center">
+            <small>&copy; 2025 LEONARDO NUNES. Todos os direitos reservados ao senai.</small>
+        </div>
+    </footer>
+
+</body>
+</html>
